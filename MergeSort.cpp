@@ -94,7 +94,14 @@ void output()
     cout << "\nData setelah diurutkan (Merge Sort): ";
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " "; step 4.f.i
+        cout << arr[i] << " ";
     }
     cout << endl;
+}
+
+int main()
+{
+    input();
+    mergeSort(0, n - 1);
+    output();
 }
